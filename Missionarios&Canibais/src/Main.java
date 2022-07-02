@@ -43,7 +43,6 @@ public class Main {
         } else if (acao == 2) {
             if (barco.passageiros.size() > 0) {
                 System.out.println(
-
                         "\nPossíveis desembarques:" +
                         "\n" + barco.mostrar());
                 System.out.println("Selecione o passageiro a desembarcar:");
